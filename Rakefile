@@ -11,7 +11,7 @@ task :hola do
   puts "hola de Rake!"
 end
 
-desc '  to the terminal'
+desc 'outputs console  to the terminal'
 task :console do
   puts "Make sure you have a 'console' rake task"
 end
