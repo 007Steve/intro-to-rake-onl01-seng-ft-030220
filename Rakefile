@@ -11,6 +11,9 @@ task :hola do
   puts "hola de Rake!"
 end
 
-
+desc 'outputs hello to the terminal'
+task :console do
+  puts "hola de Rake!"
+end
 
 end
