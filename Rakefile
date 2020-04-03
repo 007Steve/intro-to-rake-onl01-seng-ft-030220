@@ -11,9 +11,9 @@ task :hola do
   puts "hola de Rake!"
 end
 
-desc 'outputs console  to the terminal'
-task :console do
-  puts "Make sure you have a 'console' rake task"
+desc 'drop into the Pry console'
+task :console => :environment do
+  Pry.start
 end
 
 namespace :db do 
