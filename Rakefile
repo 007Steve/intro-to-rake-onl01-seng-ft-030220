@@ -16,4 +16,6 @@ task :console do
   puts "Make sure you have a 'console' rake task"
 end
 
+namespace :db do 
+  desc ""
 end
